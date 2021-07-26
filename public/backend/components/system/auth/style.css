@@ -1,0 +1,119 @@
+.vb__auth {
+    /* SETTINGS */
+}
+
+.vb__auth__boxContainer {
+    padding: 3.33rem 2rem;
+}
+
+.vb__auth__authContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.vb__auth__authContainer--white {
+    background: #fff;
+}
+
+.vb__auth__authContainer--gray {
+    background: #f2f4f8;
+}
+
+.vb__auth__containerInner {
+    max-width: 32rem;
+    width: 100%;
+}
+
+.vb__auth__topbar {
+    height: 4.26rem;
+    border-bottom: 1px solid #e4e9f0;
+    background: #fff;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.86rem;
+    width: 100%;
+}
+
+.vb__auth__topbar--gray {
+    background: #f2f4f8;
+}
+
+.vb__auth__logoContainer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.86rem 0 0;
+}
+
+.vb__auth__logoContainer__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1.6rem;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.vb__auth__logoContainer__name {
+    font-size: 1.33rem;
+    font-weight: 700;
+    color: #141322;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
+    display: block;
+}
+
+.vb__auth__logoContainer__descr {
+    margin-left: 0.86rem;
+    padding-left: 0.86rem;
+    height: 2.53rem;
+    line-height: 2.53rem;
+    border-left: 1px solid #e4e9f0;
+    font-size: 0.93rem;
+}
+
+.vb__auth__footerNav li {
+    margin: 0.33rem 0.93rem;
+}
+
+.vb__topbar--gray .vb__auth__topbar {
+    background: #f2f4f8;
+}
+
+.vb__auth--gray .vb__auth__authContainer {
+    background: #f2f4f8;
+}
+
+.vb__auth--img .vb__auth__authContainer {
+    background-image: url(../../css/img/content/photos/7.jpg);
+}
+
+[data-vb-theme='dark'] .vb__auth__authContainer {
+    background: transparent !important;
+}
+
+[data-vb-theme='dark'] .vb__auth__topbar {
+    background: #141322 !important;
+    border-bottom: 1px solid #232135 !important;
+}
+
+[data-vb-theme='dark'] .vb__auth__logoContainer__name {
+    color: #fff;
+}
+
+[data-vb-theme='dark'] .vb__auth__logoContainer__descr {
+    color: #7575a3;
+    border-left: 1px solid #232135;
+}

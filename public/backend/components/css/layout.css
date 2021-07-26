@@ -1,0 +1,64 @@
+.vb__layout {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    min-height: 100vh;
+    min-width: 0;
+    /* SETTINGS */
+}
+
+.vb__layout--hasSider {
+    flex-direction: row;
+}
+
+.vb__layout__content {
+    flex: auto;
+    min-height: 0;
+}
+
+.vb__layout__footer {
+    flex: 0 0 auto;
+}
+
+.vb__layout__header {
+    flex: 0 0 auto;
+    height: 64px;
+}
+
+.vb__layout__header {
+    background: #fff !important;
+}
+
+.vb__layout--grayBackground {
+    background: #f2f4f8;
+}
+
+.vb__layout--contentMaxWidth .vb__utils__content {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.vb__layout--appMaxWidth {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.vb__layout--squaredBorders .card {
+    border-radius: 0 !important;
+}
+
+.vb__layout--cardsShadow .card {
+    box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03), 0 0 10px 0 rgba(20, 19, 34, 0.02);
+}
+
+.vb__layout--cardsShadow .card .card {
+    box-shadow: none;
+}
+
+.vb__layout--borderless .card {
+    border: none !important;
+}
+
+[data-vb-theme='dark'] .vb__layout__grayBackground, [data-vb-theme='dark'] .vb__layout__headerGray {
+    background: transparent !important;
+}

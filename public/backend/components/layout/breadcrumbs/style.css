@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* BREADCRUMBS */
+.vb__breadcrumbs {
+    padding: 1.33rem 2rem 0;
+    font-size: 1.13rem;
+}
+
+.vb__breadcrumbs__current {
+    color: #141322;
+}
+
+.vb__breadcrumbs__arrow {
+    display: inline-block;
+    margin: 0 0.66rem;
+}
+
+.vb__breadcrumbs__arrow:after {
+    display: inline-block;
+    content: '·';
+    color: #a1a1c2;
+}
+
+[data-vb-theme='dark'] .vb__breadcrumbs {
+    color: #aeaee0;
+}
+
+[data-vb-theme='dark'] .vb__breadcrumbs__current {
+    color: #fff;
+}
+
+[data-vb-theme='dark'] .vb__breadcrumbs__arrow:after {
+    color: #aeaee0;
+}

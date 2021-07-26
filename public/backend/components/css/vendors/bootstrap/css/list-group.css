@@ -1,0 +1,31 @@
+/* LIST GROUP */
+.list-group-item {
+    border-color: #e4e9f0;
+}
+
+.list-group-item.active {
+    background: var(--vb-color-primary);
+}
+
+[data-vb-theme='dark'] .list-group-item {
+    border-color: #232135;
+    background: #0c0c1b;
+    color: inherit;
+}
+
+[data-vb-theme='dark'] .list-group-item.active {
+    background: var(--vb-color-primary) !important;
+}
+
+[data-vb-theme='dark'] .list-group-item-action {
+    color: #fff !important;
+}
+
+[data-vb-theme='dark'] .list-group-item-action:hover {
+    background: #141322;
+}
+
+[data-vb-theme='dark'] .list-group-item-action.disabled {
+    opacity: 0.5;
+    background: transparent;
+}
