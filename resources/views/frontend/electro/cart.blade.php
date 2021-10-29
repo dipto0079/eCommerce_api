@@ -37,7 +37,7 @@
                         </tr>
                     </thead>
                     <tbody id="lblproducts">
-                        
+
                         {{-- <tr class="" > --}}
                             {{-- <td class="text-center">
                                 <a href="#" class="text-gray-32 font-size-26">×</a>
@@ -107,7 +107,7 @@
                         </tr> --}}
                     </tbody>
                     <tfoot>
-                        
+
                     </tfoot>
                 </table>
             </form>
@@ -430,7 +430,7 @@
                                                 </select>
                                             </div>
                                             <input class="form-control mb-4" type="text" placeholder="Postcode / ZIP">
-                                            <button type="button" class="btn btn-soft-secondary mb-3 mb-md-0 font-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Update Totals</button>
+                                            <button type="button" class="btn btn-soft-secondary mb-3 mb-md-0 fon$resultt-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Update Totals</button>
                                         </div>
                                     </div> --}}
                                 </td>

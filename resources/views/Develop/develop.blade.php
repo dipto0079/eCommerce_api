@@ -27,7 +27,6 @@ class _Menu
 
     function slider()
     {
-
         $url = env('APP_URL') . 'api/sliders';
         $cSession = curl_init();
         curl_setopt($cSession, CURLOPT_URL, $url);
